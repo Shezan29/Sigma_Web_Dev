@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="post">
+        <h1>Form to apply for Sigma Web Development -TA</h1>
+
+        <label for="username">Enter your username: </label>
+        <input type="text" id="username" placeholder="example: fahim321">
+
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to Sigma</label>
+        </div>
+
+        <div>
+            <label for="cols">Enter your comment:</label><br>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="device">Platform:</label>
+            <select name="device" id="device">
+                <option value="Windows">Windows</option>
+                <option value="Mac">Mac</option>
+                <option value="Android">Android</option>
+                <option value="IOS">IOS</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>

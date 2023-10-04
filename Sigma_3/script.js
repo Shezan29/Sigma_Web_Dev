@@ -1,0 +1,1 @@
+alert("Don't open this tab")
