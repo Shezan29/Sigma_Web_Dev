@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: aqua;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}

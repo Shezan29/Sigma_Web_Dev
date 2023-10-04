@@ -1,0 +1,8 @@
+CLS = Cumuliate Layout Shift => how much contents shift while loading
+				(has to be as low as possible)
+LCP = Largest Contentful Page => how much time the largest content of the
+				 page takes to load (Standard 2.5 seconds)
+FID = First Input Delay => Delay time between user input and action
+			   (Standard less than 100 mili seconds)
+
+Inspect -> Lighthouse -> Measure performance of the website
