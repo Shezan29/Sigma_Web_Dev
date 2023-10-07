@@ -1,0 +1,22 @@
+#intro{
+  background-color: black;
+  color: red;
+}
+
+#boody{
+    background-color: red;
+    color: yellow;
+}
+
+#outro{
+    background-color: yellow;
+    color: black;
+}
+
+div{
+    height: 200px;
+    font-size: xx-large;
+    text-align: center;
+    text-transform: capitalize;
+}
+
